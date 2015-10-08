@@ -1,0 +1,87 @@
+﻿$foregroundDark: #078500;
+$foregroundLight: #14B80C;
+
+@media all {
+    #logo {
+        a {
+            text-transform: none;
+        }
+    }
+    a {
+        color: $foregroundLight;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $foregroundDark;
+        }
+    }
+
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        background-color: #e7f5e7;
+        border-radius: 4px;
+    }
+
+    ::selection {
+        background: #b8e4a9;
+    }
+
+    body {
+        pre.prettyprint {
+            background-color: #fcfcfc;
+            border-color: #ddd;
+            line-height: 1.2;
+            padding: 8px;
+
+            .com {
+                color: #008000;
+            }
+
+            .str, .tag {
+                color: #A31515;
+            }
+
+            .kwd, .atv {
+                color: #0000FF;
+            }
+
+            .typ {
+                color: #2B91AF;
+            }
+
+            .lit, .atn {
+                color: #FF0000;
+            }
+
+            .pun, .pln {
+                color: #000000;
+            }
+
+            .dec {
+                color: #800080;
+            }
+
+            code {
+                padding: 0;
+                background-color: transparent;
+                border-radius: 0;
+            }
+        }
+
+        .gist {
+            table {
+                border: 0 !important;
+                tr, td {
+                    border: 0 !important;
+                    line-height: 1.4;
+                }
+            }
+
+            .blob-num {
+                border-right: 1px solid #eee !important;
+            }
+        }
+    }
+}
