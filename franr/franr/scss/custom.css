@@ -22,6 +22,10 @@ body pre.prettyprint {
   border-color: #ddd;
   line-height: 1.2;
   padding: 8px; }
+  body pre.prettyprint code {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0; }
   body pre.prettyprint .com {
     color: #008000; }
   body pre.prettyprint .str, body pre.prettyprint .tag {
@@ -36,10 +40,6 @@ body pre.prettyprint {
     color: #000000; }
   body pre.prettyprint .dec {
     color: #800080; }
-  body pre.prettyprint code {
-    padding: 0;
-    background-color: transparent;
-    border-radius: 0; }
 
 body .gist table {
   border: 0 !important; }

@@ -391,7 +391,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #066; }
+  color: #078500; }
 
 p {
   margin: 0;
@@ -432,7 +432,7 @@ h2.entry-title, h2.entry-title a {
   margin-top: 0 !important; }
 
 h2.entry-title a:hover {
-  color: #333; }
+  color: #078500; }
 
 blockquote {
   color: #555;
@@ -686,14 +686,14 @@ span.read-more {
 
 span.read-more a {
   display: inline-block;
-  background: #078500;
+  background: #14B80C;
   color: #fff;
   font-size: 14px;
   padding: 5px 10px;
   margin: 20px 0 0; }
 
 span.read-more a:hover {
-  background: #028080; }
+  background: #078500; }
 
 .p-tags {
   margin: 20px 0; }
@@ -799,13 +799,13 @@ span.read-more a:hover {
 #sidebar .tagcloud a {
   display: inline-block;
   color: #fff;
-  background: #078500;
+  background: #14B80C;
   font-size: 13px !important;
   padding: 5px 10px;
   margin: 0 5px 5px 0; }
 
 #sidebar .tagcloud a:hover {
-  background: #028080; }
+  background: #078500; }
 
 .widget_search label {
   display: none; }

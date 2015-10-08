@@ -365,7 +365,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-	color: #066;
+	color: $foregroundDark;
 }
 p {
 	margin: 0;
@@ -406,7 +406,7 @@ h2.entry-title, h2.entry-title a {
 	margin-top: 0 !important;
 }
 h2.entry-title a:hover {
-	color:#333;
+	color: $foregroundDark;
 }
 blockquote {
 color: #555;
@@ -665,14 +665,14 @@ span.read-more {
 }
 span.read-more a {
     display: inline-block;
-    background: $foregroundDark;
+    background: $foregroundLight;
     color: #fff;
     font-size: 14px;
     padding: 5px 10px;
     margin: 20px 0 0;
 }
 span.read-more a:hover {
-    background: #028080;
+    background: $foregroundDark;
 }
 .p-tags {
     margin: 20px 0;
@@ -782,13 +782,13 @@ border: 1px solid $foregroundDark;
 #sidebar .tagcloud a {
     display: inline-block;
     color: #fff;
-    background: $foregroundDark;
+    background: $foregroundLight;
     font-size: 13px !important;
     padding: 5px 10px;
     margin: 0 5px 5px 0;
 }
 #sidebar .tagcloud a:hover {
-    background: #028080;
+    background: $foregroundDark;
 }
 .widget_search label {
 	display:none;
