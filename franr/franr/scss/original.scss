@@ -13,8 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 More information: http://codex.wordpress.org/Theme_Review#Licensing
 */
 
-$foregroundDark: #078500;
-$foregroundLight: #14B80C;
+@import "common";
 
 /* Reset and Normalize 
 -------------------------------------------------------------- */
@@ -1098,5 +1097,4 @@ textarea {
 
 .gallery-caption {}
 
-/* Custom */
-@import "custom"
+

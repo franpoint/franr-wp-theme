@@ -67,16 +67,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="custom.scss" />
+    <Content Include="scss\custom.scss" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="scss\common.scss" />
     <None Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
-    <Content Include="style.scss" />
+    <Content Include="scss\style.scss" />
+    <Content Include="scss\original.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -90,10 +92,10 @@
     <Content Include="class-tgm-plugin-activation.php" />
     <Content Include="comments.php" />
     <Content Include="css\font-awesome.css" />
-    <Content Include="custom.css">
+    <Content Include="scss\custom.css">
       <DependentUpon>custom.scss</DependentUpon>
     </Content>
-    <Content Include="custom.min.css">
+    <Content Include="scss\custom.min.css">
       <DependentUpon>custom.css</DependentUpon>
     </Content>
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -107,6 +109,12 @@
     <Content Include="js\keyboard-image-navigation.js" />
     <Content Include="js\navigation.js" />
     <Content Include="js\skip-link-focus-fix.js" />
+    <Content Include="scss\original.css">
+      <DependentUpon>original.scss</DependentUpon>
+    </Content>
+    <Content Include="scss\original.min.css">
+      <DependentUpon>original.css</DependentUpon>
+    </Content>
     <Content Include="page.php" />
     <Content Include="readme.txt" />
     <Content Include="screenshot.png" />
@@ -114,9 +122,7 @@
     <Content Include="searchform.php" />
     <Content Include="sidebar.php" />
     <Content Include="single.php" />
-    <Content Include="style.css">
-      <DependentUpon>style.scss</DependentUpon>
-    </Content>
+    <Content Include="style.css" />
     <Content Include="style.min.css">
       <DependentUpon>style.css</DependentUpon>
     </Content>

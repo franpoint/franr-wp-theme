@@ -13,7 +13,7 @@
       "indentWidth": 2,
       "outputStyle": "nested",
       "Precision": 5,
-      "relativeUrls": true
+      "relativeUrls": true,
     },
     "coffeescript": {
       "bare": false,

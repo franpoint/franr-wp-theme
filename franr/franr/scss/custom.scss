@@ -1,7 +1,6 @@
-﻿$foregroundDark: #078500;
-$foregroundLight: #14B80C;
+﻿@import "common";
 
-@media all {
+//@media all {
     #logo {
         a {
             text-transform: none;
@@ -84,4 +83,4 @@ $foregroundLight: #14B80C;
             }
         }
     }
-}
+//}

@@ -1,10 +1,14 @@
 ﻿[
   {
-    "outputFile": "custom.css",
-    "inputFile": "custom.scss"
+    "outputFile": "style.css",
+    "inputFile": "scss/style.scss"
   },
   {
-    "outputFile": "style.css",
-    "inputFile": "style.scss"
+    "outputFile": "scss/custom.css",
+    "inputFile": "scss/custom.scss"
+  },
+  {
+    "outputFile": "scss/original.css",
+    "inputFile": "scss/original.scss"
   }
 ]
