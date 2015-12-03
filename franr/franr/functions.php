@@ -94,27 +94,27 @@ add_action( 'wp_enqueue_scripts', 'elmax_scripts' );
 
 //Set up title if SEO plugin is not used.
 
-function elmax_wp_title( $title, $sep ) {
+function franr_wp_title( $title, $sep ) {
 	global $paged, $page;
 
 	if ( is_feed() )
 		return $title;
 
-	// Add the site name.
-	$title .= get_bloginfo( 'name' );
+	// Init with the site name.
+	//$title .= get_bloginfo( 'name' );
 
 	// Add the site description for the home/front page.
 	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		$title = "$title $sep $site_description";
+	if ( $site_description && !strpos($title,$site_description) && ( is_home() || is_front_page() ) )
+		$title .= " $sep $site_description";
 
 	// Add a page number if necessary.
 	if ( $paged >= 2 || $page >= 2 )
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'elmax' ), max( $paged, $page ) );
+		$title .= " $sep " . sprintf( __( 'Page %s', 'elmax' ), max( $paged, $page ) );
 
 	return $title;
 }
-add_filter( 'wp_title', 'elmax_wp_title', 10, 2 );
+add_filter( 'wp_title', 'franr_wp_title', 10, 2 );
 
 function elmax_wp_pagination() {
 global $wp_query;
@@ -153,7 +153,7 @@ if ( ! function_exists( 'elmax_wp_render_title_tag' ) ) {
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <?php
 	}
-	add_action( 'wp_head', 'elmax_render_title' );
+	//add_action( 'wp_head', 'elmax_render_title' );
 }
 	
 /**

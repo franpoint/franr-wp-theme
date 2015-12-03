@@ -37,10 +37,7 @@
 <div id="top-wrap">
 <div id="top-inner">
 	<header id="branding" class="site-header" role="banner">
-			<h1 id="logo"><a href="<?php esc_url (home_url('/')); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-
-
-		
+			<h1 id="logo"><a href="<?php echo esc_url(home_url('')) ?>"><?php bloginfo( 'name' ); ?></a></h1>
 	<nav id="site-navigation" class="main-navigation" role="navigation">
 		<h1 class="menu-toggle"><?php _e( 'Menu', 'elmax' ); ?></h1>
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'elmax' ); ?></a>
