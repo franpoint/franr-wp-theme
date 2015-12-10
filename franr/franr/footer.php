@@ -6,7 +6,7 @@
  */
 ?>
 	<footer>
-		<p>&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. <?php _e( 'Theme Elmax by', 'elmax' ); ?> <a rel="nofollow" href="http://justfreethemes.com/"><?php _e( 'Just Free Themes', 'elmax' ); ?></a></p>
+		<p>&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
 	</footer>
 	
 </div><!-- !wrap -->

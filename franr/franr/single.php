@@ -27,9 +27,9 @@ get_header(); ?>
 
 			<?php the_content(); ?>
 
-			<?php wp_link_pages(); ?>
-
-			<div class="p-tags"><?php the_tags('','',''); ?></div>
+			<?php wp_link_pages(); 
+       //<div class="p-tags">/*the_tags('','','');*/</div>
+      ?>
 			
 			<nav class="post-navigation">
 				<div class="nav-previous"><?php previous_post_link( '&laquo; %link' ); ?></div>
