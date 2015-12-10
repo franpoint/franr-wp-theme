@@ -68,18 +68,22 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="packages.config" />
+    <Content Include="wp-content\uploads\2015\12\fetchData.png" />
+    <Content Include="wp-content\uploads\2015\12\fetchDataBetter.png" />
     <Content Include="scss\custom.scss" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="scss\common.scss" />
+    <Content Include="wp-content\uploads\2015\12\once.png" />
     <None Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
     <Content Include="scss\style.scss" />
     <Content Include="scss\original.scss" />
+    <Content Include="posts\optimizing-javascript-promises-avoiding-redundant-requests.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

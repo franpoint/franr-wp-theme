@@ -107,7 +107,7 @@ textarea {
   -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   color: #3a3a3a;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 15px;
   /* pixels are needed for IE 8 and lower :( */
   font-size: 1.5rem;
@@ -494,7 +494,7 @@ blockquote p cite {
 #logo {
   display: block;
   float: left;
-  margin: 0.14em 0 0 0.3em; }
+  margin: 0.14em 0 0 .3em; }
 
 #logo a {
   font-size: 30px;
@@ -1054,7 +1054,7 @@ textarea {
   .site-header .menu-toggle {
     background: #3a3a3a;
     color: white;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     font-size: 15px;
     font-size: 1.5rem;
     padding: 15px 22px;
@@ -1092,9 +1092,7 @@ textarea {
 
 a {
   color: #14B80C; }
-  a:hover,
-  a:focus,
-  a:active {
+  a:hover, a:focus, a:active {
     color: #078500; }
 
 code {
@@ -1103,14 +1101,27 @@ code {
   background-color: #e7f5e7;
   border-radius: 4px; }
 
+article a {
+  text-decoration: underline; }
+
+article p img {
+  display: block;
+  margin: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 8px #ddd; }
+
 ::selection {
   background: #b8e4a9; }
 
 body pre.prettyprint {
-  background-color: #fcfcfc;
+  background-color: #fefefe;
   border-color: #ddd;
   line-height: 1.2;
   padding: 8px; }
+  body pre.prettyprint code {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0; }
   body pre.prettyprint .com {
     color: #008000; }
   body pre.prettyprint .str, body pre.prettyprint .tag {
@@ -1125,10 +1136,6 @@ body pre.prettyprint {
     color: #000000; }
   body pre.prettyprint .dec {
     color: #800080; }
-  body pre.prettyprint code {
-    padding: 0;
-    background-color: transparent;
-    border-radius: 0; }
 
 body .gist table {
   border: 0 !important; }
