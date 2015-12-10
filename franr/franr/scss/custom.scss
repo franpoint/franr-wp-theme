@@ -1,4 +1,4 @@
-﻿@import "common";
+﻿@import "common";       
 
 #logo {
     a {
@@ -19,18 +19,32 @@ a {
 code {
     padding: 2px 4px;
     font-size: 90%;
-    background-color: #e7f5e7;
+    background-color: $backgroundLight;
     border-radius: 4px;
 }
 
+article {
+    a {
+        text-decoration: underline;
+    }
+    p {
+        img {
+            display: block;
+            margin: auto;
+            border: 1px solid $gray;
+            box-shadow: 0px 0px 8px $gray;
+        }
+    }
+
+}
 ::selection {
-    background: #b8e4a9;
+    background: $selection;
 }
 
 body {
     pre.prettyprint {
-        background-color: #fcfcfc;
-        border-color: #ddd;
+        background-color: $codeBackground;
+        border-color: $gray;
         line-height: 1.2;
         padding: 8px;
 

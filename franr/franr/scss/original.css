@@ -107,7 +107,7 @@ textarea {
   -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   color: #3a3a3a;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 15px;
   /* pixels are needed for IE 8 and lower :( */
   font-size: 1.5rem;
@@ -494,7 +494,7 @@ blockquote p cite {
 #logo {
   display: block;
   float: left;
-  margin: 0.14em 0 0 0.3em; }
+  margin: 0.14em 0 0 .3em; }
 
 #logo a {
   font-size: 30px;
@@ -1054,7 +1054,7 @@ textarea {
   .site-header .menu-toggle {
     background: #3a3a3a;
     color: white;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     font-size: 15px;
     font-size: 1.5rem;
     padding: 15px 22px;
