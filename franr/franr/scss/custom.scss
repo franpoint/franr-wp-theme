@@ -1,4 +1,4 @@
-﻿@import "common";       
+﻿@import "common";
 
 #logo {
     a {
@@ -27,6 +27,13 @@ article {
     a {
         text-decoration: underline;
     }
+
+    .entrymeta {
+        a {
+            text-decoration: none;
+        }
+    }
+
     p {
         img {
             display: block;
@@ -35,13 +42,32 @@ article {
             box-shadow: 0px 0px 8px $gray;
         }
     }
-
 }
+
 ::selection {
     background: $selection;
 }
 
-body {
+#fr-about {
+    margin-bottom: -10px;
+    clear: both;
+    overflow: hidden;
+
+    img {
+        max-width: 100px;
+        width: 40%;
+        float: left;
+        margin-right: 10px;
+        padding-top: 3px;
+    }
+
+    p {
+        font-size: 90%;
+        margin-bottom: 0;
+    }
+}
+
+body { //body specified just to overwrite default theme css
     pre.prettyprint {
         background-color: $codeBackground;
         border-color: $gray;

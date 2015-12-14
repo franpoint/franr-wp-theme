@@ -790,7 +790,6 @@ span.read-more a:hover {
   font-size: 1.4rem; }
 
 #sidebar a {
-  color: #4d4d4d;
   text-decoration: none; }
 
 #sidebar a:hover {
@@ -1104,6 +1103,9 @@ code {
 article a {
   text-decoration: underline; }
 
+article .entrymeta a {
+  text-decoration: none; }
+
 article p img {
   display: block;
   margin: auto;
@@ -1112,6 +1114,20 @@ article p img {
 
 ::selection {
   background: #b8e4a9; }
+
+#fr-about {
+  margin-bottom: -10px;
+  clear: both;
+  overflow: hidden; }
+  #fr-about img {
+    max-width: 100px;
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    padding-top: 3px; }
+  #fr-about p {
+    font-size: 90%;
+    margin-bottom: 0; }
 
 body pre.prettyprint {
   background-color: #fefefe;
