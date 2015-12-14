@@ -6,7 +6,9 @@
  */
 ?>
 	<footer>
-		<p>&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?></p>
+    <p>
+      &copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?> | Theme <a target="_blank" href="https://github.com/spcfran/franr-wp-theme">franr</a> based on <a href="http://justfreethemes.com" target="_blank">Elmax</a>
+    </p>
 	</footer>
 	
 </div><!-- !wrap -->
