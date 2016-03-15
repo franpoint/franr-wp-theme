@@ -22,8 +22,13 @@ code {
     background-color: $backgroundLight;
     border-radius: 4px;
 }
-
+h3 {
+    font-size: 1.9rem;
+}
 article {
+    &.hentry {
+        overflow: visible;
+    }
     a {
         text-decoration: underline;
     }

@@ -1100,6 +1100,12 @@ code {
   background-color: #e7f5e7;
   border-radius: 4px; }
 
+h3 {
+  font-size: 1.9rem; }
+
+article.hentry {
+  overflow: visible; }
+
 article a {
   text-decoration: underline; }
 
