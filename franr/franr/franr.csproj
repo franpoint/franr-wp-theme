@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <Content Include="img\404.jpg" />
     <Content Include="packages.config" />
     <Content Include="wp-content\uploads\2015\12\fetchData.png" />
     <Content Include="wp-content\uploads\2015\12\fetchDataBetter.png" />

@@ -12,9 +12,9 @@ get_header(); ?>
 	<section id="content">
 
 		<article class="hentry">		
-			<h1><?php _e( 'Oops... File or page not found.', 'elmax' ); ?></h1>
-			<p><?php _e( 'We have recently made changes to our website and the page you are looking for might have been deleted or moved. Please', 'elmax' ); ?> <a href="<?php esc_url (home_url('/')); ?>"><?php _e( 'visit our home page instead', 'elmax' ); ?></a>.</p>
-			<p><?php _e( 'Sorry for the inconvenience', 'elmax' ); ?>.</p>		
+			<h1><?php _e( '404', 'elmax' ); ?></h1>
+			<p><img src="<?php echo get_template_directory_uri()?>/img/404.jpg"></img></p>		
+			<p>Because bad news are better with cats</p>
 		</article>
 
 	</section><!-- #content -->
