@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: franr	
 Theme URI: http://franr.com
 Description: Based on Elmax, a clean responsive WordPress theme for your regular blogs. It comes with a 2 column layout with a minimal yet elegant design. This is a free & gpl theme, so do whatever you want with it.
@@ -1135,6 +1135,16 @@ article p img {
     font-size: 90%;
     margin-bottom: 0; }
 
+body pre {
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  line-height: 1.2;
+  padding: 8px; }
+  body pre > code {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0; }
+
 body pre.prettyprint {
   background-color: #fefefe;
   border-color: #ddd;
@@ -1167,4 +1177,3 @@ body .gist table {
 
 body .gist .blob-num {
   border-right: 1px solid #eee !important; }
-

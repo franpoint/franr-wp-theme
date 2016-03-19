@@ -73,6 +73,19 @@ article {
 }
 
 body { //body specified just to overwrite default theme css
+       pre {
+           background-color: $codeBackground;
+            border: 1px solid $gray;
+            line-height: 1.2;
+            padding: 8px;
+
+           > code {
+                padding: 0;
+                background-color: transparent;
+                border-radius: 0;
+           }
+       }
+
     pre.prettyprint {
         background-color: $codeBackground;
         border-color: $gray;
