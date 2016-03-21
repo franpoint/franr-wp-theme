@@ -7,12 +7,12 @@
 }
 
 a {
-    color: $foregroundLight;
+    color: $foregroundDark;
 
     &:hover,
     &:focus,
     &:active {
-        color: $foregroundDark;
+        color: $foregroundLight;
     }
 }
 
